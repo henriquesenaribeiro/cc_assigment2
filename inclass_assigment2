@@ -1,0 +1,26 @@
+// Task 5
+
+
+
+
+// Task 6
+
+let inventory = {
+    items: [],
+    addItem(name,quantity) {
+        this.items.push({name, quantity});
+    }
+    removeLatestIte() {
+        this.items.pop();
+    },
+    removeFirstItem() {
+        this.items.shift();
+    }
+};
+
+
+inventory.addItem("Monitor", 5);
+inventory.addItem("Keyboard", 10);
+console.log(inventory.items);
+inventory.removeLatestItem();
+console.log(inventory.items);
