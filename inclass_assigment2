@@ -1,3 +1,18 @@
+//Task 4
+
+let employee = {
+    name: "Henrique",
+    salary: 100000,
+    position: "Manager"
+};
+
+function updateSalary(employee, percentageIncrease){
+    employee.salary += employee.salary = percentageIncrease
+};
+
+updateSalary(employee, 0.1)
+console.log(employee)
+
 // Task 5
 
 let orders = [
