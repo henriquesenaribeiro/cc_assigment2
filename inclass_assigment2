@@ -1,3 +1,18 @@
+Task 1
+
+function getProductsByCategory)products, category) {
+    return products.filter(product => product,category ===category);
+}
+
+console.log(getProductsByCategory(products, "Eletronics"));
+
+
+
+
+
+
+
+
 //Task 4
 
 let employee = {
