@@ -1,1 +1,2 @@
-# cc_assigment2
+# Hi
+This is my coding assigment 2
