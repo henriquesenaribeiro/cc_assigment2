@@ -1,6 +1,15 @@
 // Task 5
 
+let orders = [
 
+]
+
+function findOrders(orders,orderId){
+    return orders.find(order => oder.Id === orderId);
+}
+
+same_order =  findOrders(orders, 101)
+console.log('${some_order.customer} has an order id: $(some order,customer}')
 
 
 // Task 6
