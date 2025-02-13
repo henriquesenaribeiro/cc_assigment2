@@ -6,9 +6,18 @@ function getProductsByCategory)products, category) {
 
 console.log(getProductsByCategory(products, "Eletronics"));
 
+//Task 2
 
+function applyDiscount(product, discountRate) {
+    return products.map(products => ({
+        ...product,
+        price: product.price - (price.price * dicountRate)
+    }
 
+    ) )
+}
 
+console.log(applyDiscount(products, .1));
 
 
 
