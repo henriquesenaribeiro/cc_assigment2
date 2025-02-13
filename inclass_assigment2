@@ -91,6 +91,9 @@ let employee = [
 
 ];
 
-findEmployee(employeee, "Henry");
+function findEmployee(employeee, "Henry");
+    return employee.find(employeee => employee.name ===name);
+}
 
-console.log(employee);
+console.log(findEmployee(employees, "Henry"));
+
